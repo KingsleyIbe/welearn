@@ -9,43 +9,43 @@ export const Data = [
     },
     {
         id: 2,
-        course: 'Math',
+        course: 'Book Writing',
         icon: faMapLocationDot,
 
     },
     {
         id: 3,
-        course: 'Math',
+        course: 'Chemistry',
         icon: faSearch,
 
     },
     {
         id: 4,
-        course: 'Math',
+        course: 'Project Management',
         icon: faBookOpen,
 
     },
     {
         id: 5,
-        course: 'Math',
+        course: 'Web Development',
         icon: faMapLocationDot,
 
     },
     {
         id: 6,
-        course: 'Math',
+        course: 'Computer Programming',
         icon: faSearch,
 
     },
     {
         id: 7,
-        course: 'Math',
+        course: 'Data Science',
         icon: faMapLocationDot,
 
     },
     {
         id: 8,
-        course: 'Math',
+        course: 'English',
         icon: faSearch,
 
     },
