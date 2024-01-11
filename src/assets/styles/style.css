@@ -9,10 +9,16 @@
   padding: 0;
 }
 
+/* color 1: #F4F6FC */
+/* color 2: #EAF3FF */
+/* color 2: #764ABC */
+/* color 4: #FD9800 */
+/* color 5: #00D8FF */
 body {
   color: #fff;
   /* color: #262626; */
-  background-color: #ccad8f;
+  /* background-color: #ccad8f; */
+  background-color: #181842;
 }
 
 a {

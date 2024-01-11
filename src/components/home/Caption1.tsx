@@ -1,7 +1,7 @@
 const Caption1 = () => {
     return (
-        <div>
-            <div>
+        <div className="mt-10">
+            <div className="text-center text-[80px] font-bold">
                 <h1>Find the Perfect Tutor</h1>
             </div>
         </div>
