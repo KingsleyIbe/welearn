@@ -1,4 +1,4 @@
-import { faBookOpen, faMapLocation, faMapLocationDot, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBookOpen, faMapLocationDot, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SearchTutor = () => {

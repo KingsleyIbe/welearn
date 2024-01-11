@@ -1,5 +1,6 @@
 import Heading from '../common/Heading';
 import Caption1 from './Caption1';
+import SampleCourses from './SampleCourses';
 import Search from './Search';
 
 const index = () => {
@@ -8,6 +9,7 @@ const index = () => {
         <Heading />
         <Caption1 />
         <Search />
+        <SampleCourses />
     </div>
   );
 };
