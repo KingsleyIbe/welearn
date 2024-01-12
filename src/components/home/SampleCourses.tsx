@@ -5,6 +5,7 @@ const SampleCourses = () => {
     const data = Data;
     return (
         <div className="flex flex-col px-10 mt-[100px]">
+            <h2 className="mb-4 text-[#EAF3FF]">Popular Courses:</h2>
             <ul className="flex flex-row bg-[#EAF3FF] items-center rounded-[21px] text-[#181842] justify-between p-3 gap-5">
                 {data.map((item) => (
                     <li key={item?.id} className="flex flex-col items-center gap-2">
