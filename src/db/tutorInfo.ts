@@ -20,7 +20,7 @@ export const Data = [
         rating: 5,
         numberOfReviews: 10,
         status: 'confirmed',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj sodkokdokodkodk ksdmkdkskdkdlkd  ndkjjdjsdksmkdkdmkdmk',
         price: 3000,
         note: 'First lesson is free'
 
@@ -37,7 +37,7 @@ export const Data = [
         rating: 0,
         numberOfReviews: 0,
         status: 'Super Tutor',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj ksajkjsaijsiajisaj ndjnjdsikjsjsajas jsjsjsksjksksa',
         price: 3000,
         note: 'First lesson is free'
 
@@ -54,13 +54,13 @@ export const Data = [
         rating: 5,
         numberOfReviews: 10,
         status: 'Experienced',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj jdijdsjijsaijsiajisj jsijsjkjskjskldkjdsjjsddj',
         price: 5000,
-        note: ''
+        note: 'First lesson is free'
 
     },
     {
-        id: 1,
+        id: 4,
         favouriteIcon: faHeart,
         image: Image3,
         name: 'Kingsley',
@@ -71,13 +71,13 @@ export const Data = [
         rating: 5,
         numberOfReviews: 10,
         status: 'confirmed',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj djdijijijdsi djskijdkjdudssajikcj jhnjdfhfd',
         price: 3000,
         note: 'First lesson is free'
 
     },
     {
-        id: 2,
+        id: 5,
         favouriteIcon: faHeart,
         image: Image4,
         name: 'Solution',
@@ -88,13 +88,13 @@ export const Data = [
         rating: 0,
         numberOfReviews: 0,
         status: 'Super Tutor',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj cdjdijidjidji ddjijdijdisjdi kdjikjd',
         price: 3000,
         note: 'First lesson is free'
 
     },
     {
-        id: 3,
+        id: 6,
         favouriteIcon: faHeart,
         image: Image5,
         name: 'Kingsley',
@@ -105,9 +105,9 @@ export const Data = [
         rating: 5,
         numberOfReviews: 10,
         status: 'Experienced',
-        description: 'lorem lorem lorem sjjksa resaadnjd nsjnsjdcjjsnjcmdjnj',
+        description: 'lorem lorem lorem lskjksjkjskjkdjkdjkdjkddkdkdkdkdkkddksjjksa resaadnjdcjjsnjcmdjnj dskokodiodijf jdjdijissjdicfji isajhusidid',
         price: 5000,
-        note: ''
+        note: 'First Lesson is free'
 
     },
 ];
