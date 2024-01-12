@@ -1,4 +1,5 @@
-import { faHeart, faStarOfLife, faStarAndCrescent } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faStarAndCrescent } from "@fortawesome/free-solid-svg-icons";
+import * as Icon from 'react-bootstrap-icons';
 import Image from '../assets/images/kings.jpg';
 import Image1 from '../assets/images/photo1.jpg';
 import Image2 from '../assets/images/photo2.jpg';
@@ -15,7 +16,7 @@ export const Data = [
         location: 'Lagos',
         teachingMode: ['face to face', 'webcam'],
         course: 'Web Development',
-        ratingIcon: faStarOfLife,
+        ratingIcon: Icon,
         rating: 5,
         numberOfReviews: 10,
         status: 'confirmed',
@@ -32,7 +33,7 @@ export const Data = [
         location: 'Lagos',
         teachingMode: ['face to face'],
         course: 'Chemistry',
-        ratingIcon: faHeart,
+        ratingIcon: Icon,
         rating: 0,
         numberOfReviews: 0,
         status: 'Super Tutor',
@@ -49,7 +50,7 @@ export const Data = [
         location: 'Aba',
         teachingMode: ['face to face', 'webcam'],
         course: 'Math',
-        ratingIcon: faStarAndCrescent,
+        ratingIcon: Icon,
         rating: 5,
         numberOfReviews: 10,
         status: 'Experienced',
@@ -66,7 +67,7 @@ export const Data = [
         location: 'Lagos',
         teachingMode: ['face to face', 'webcam'],
         course: 'Web Development',
-        ratingIcon: faHeart,
+        ratingIcon: Icon,
         rating: 5,
         numberOfReviews: 10,
         status: 'confirmed',
@@ -83,7 +84,7 @@ export const Data = [
         location: 'Lagos',
         teachingMode: ['face to face'],
         course: 'Chemistry',
-        ratingIcon: faHeart,
+        ratingIcon: Icon,
         rating: 0,
         numberOfReviews: 0,
         status: 'Super Tutor',
@@ -100,7 +101,7 @@ export const Data = [
         location: 'Aba',
         teachingMode: ['face to face', 'webcam'],
         course: 'Math',
-        ratingIcon: faHeart,
+        ratingIcon: Icon,
         rating: 5,
         numberOfReviews: 10,
         status: 'Experienced',
