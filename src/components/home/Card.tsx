@@ -17,11 +17,11 @@ const Card = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-betwee items-center">
+                        <div className="flex justify-between items-center">
                             <div className="flex gap-2 items-center">
                                 <FontAwesomeIcon icon={item?.ratingIcon} />
-                                <p>{item?.rating}</p>
-                                <p>{item?.numberOfReviews}{item?.numberOfReviews > 0 ? 'reviews' : 'review'}</p>
+                                <p>{item?.rating} </p>
+                                <p>{item?.numberOfReviews} {item?.numberOfReviews > 0 ? 'reviews' : 'review'} </p>
                             </div>
                             <div>{item?.status}</div>
                         </div>
