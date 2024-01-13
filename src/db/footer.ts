@@ -103,3 +103,41 @@ export const CourseYouLove = [
         url: '/igbo-language'
     },
 ]
+
+export const Region = [
+    {
+        id: 1,
+        title: 'Africa',
+        url: '/region'
+    },
+    {
+        id: 2,
+        title: 'Europe',
+        url: '/region'
+    },
+    {
+        id: 3,
+        title: 'Asia',
+        url: '/region'
+    },
+    {
+        id: 4,
+        title: 'North America',
+        url: '/region'
+    },
+    {
+        id: 5,
+        title: 'South America',
+        url: '/region'
+    },
+    {
+        id: 6,
+        title: 'Antarctica',
+        url: '/region'
+    },
+    {
+        id: 7,
+        title: 'Australia',
+        url: '/region'
+    },
+]

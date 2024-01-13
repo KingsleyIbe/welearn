@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
 import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
-import { AboutUs } from '../../db/footer';
+import { AboutUs, CourseYouLove } from '../../db/footer';
 
 const Footer = () => {
     return (
@@ -35,15 +35,9 @@ const Footer = () => {
                     <div>
                         <Link to="/services"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Courses You Love</h3></Link>
                         <ul className="opacity-[0.6]">
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Web App Development</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">DevOps Consulting</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Custom Software Development</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">UI/UX Design</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Product Engineering</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Mobile App Development</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Social Media Marketing</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Search Engine Optimization</Link></li>
-                            <li><Link to="/services" className="hover:text-[#FFC01D]">Mobile App Development</Link></li>
+                            {CourseYouLove?.map((item) => (
+                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FFC01D]">{item?.title}</Link></li>
+                            ))}
                         </ul>
                     </div>
                     <div className="my-[50px] sm:my-0 md:my-0 lg:my-0">
