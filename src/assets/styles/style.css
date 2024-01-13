@@ -81,3 +81,19 @@ li {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
+
+.top-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.child-top-skills {
+  flex: 0 15%;
+  flex-grow: 1;
+}
+
+.child-top-skills:hover {
+  text-decoration: underline;
+  color: #FD9800;
+}
