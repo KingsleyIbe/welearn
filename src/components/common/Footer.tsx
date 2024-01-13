@@ -54,10 +54,10 @@ const Footer = () => {
                 <div>
                     <h2 className="font-bold mb-2">Follow Us</h2>
                     <ul className="flex gap-2 items-center lg:w-[100%] xsm:text-[#f00] sm:w-[50%] sm:m-auto md:w-[50%] md:m-auto">
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/" target="__blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/" target="__blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/" target="__blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.linkedin.com/" target="__blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                        <li><a href="https://www.facebook.com/" target="__blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li><a href="https://www.instagram.com/" target="__blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <li><a href="https://twitter.com/" target="__blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                        <li><a href="https://www.linkedin.com/" target="__blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                     </ul>
                 </div>
             </div>
