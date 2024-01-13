@@ -9,14 +9,13 @@ import line from '../../assets/images/weteach.png';
 const Footer = () => {
   return (
     <div
-      className="bg-[#FD9800] p-10 footer"
+      className="bg-[#EAF3FF] text-[#181842] p-10 footer"
     >
-      <div className="lg:flex gap-[50px] items-center text-[#fff]">
+      <div className="lg:flex gap-[50px] items-center">
         <div className="flex gap-10 items-center">
           <div>
-            <Link to="/" className="flex gap-2 items-center text-[#fff] text-[20px] mb-10 hover:text-[#FFC01D]">
-              <img src={Logo} alt="Site Footer Logo" className="max-w-[61px]" />
-              <span className="font-bold">Prudence Concept</span>
+            <Link to="/" className="bg-[#181842]">
+              <img src={Logo} alt="Site Footer Logo" className="w-[100px]" />
             </Link>
             <p className="lg:max-w-[289px] opacity-[0.6]">
               We take ambitious brands to the next level.
