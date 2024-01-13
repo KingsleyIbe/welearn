@@ -146,7 +146,7 @@ export const Data = [
     },
     {
         id: 30,
-        title: 'Statistics',
-        url: '/microbiology-tutors'
+        title: 'Strength of Materials',
+        url: '/strength-of-materials-tutors'
     },
 ]

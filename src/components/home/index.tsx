@@ -3,6 +3,7 @@ import Caption1 from './Caption1';
 import Card from './Card';
 import SampleCourses from './SampleCourses';
 import Search from './Search';
+import TopCoursesAndSkills from './TopCoursesAndSkills';
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
         <Search />
         <SampleCourses />
         <Card />
+        <TopCoursesAndSkills />
     </div>
   );
 };
