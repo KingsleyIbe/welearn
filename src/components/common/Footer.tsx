@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
 import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
-import { AboutUs, CourseYouLove } from '../../db/footer';
+import { AboutUs, CourseYouLove, Region } from '../../db/footer';
 
 const Footer = () => {
     return (
@@ -43,13 +43,9 @@ const Footer = () => {
                     <div className="my-[50px] sm:my-0 md:my-0 lg:my-0">
                         <Link to="/industries"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Region</h3></Link>
                         <ul className="opacity-[0.6]">
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Africa</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Europe</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Asia</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">North America</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">South America</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Antarctica</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Australia</Link></li>
+                            {Region?.map((item) => (
+                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FFC01D]">{item?.title}</Link></li>
+                            ))}
                         </ul>
                     </div>
                 </div>
