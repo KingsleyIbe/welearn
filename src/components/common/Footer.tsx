@@ -36,15 +36,15 @@ const Footer = () => {
                         <Link to="/services"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Courses You Love</h3></Link>
                         <ul className="opacity-[0.6]">
                             {CourseYouLove?.map((item) => (
-                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FFC01D]">{item?.title}</Link></li>
+                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FD9800] hover:underline">{item?.title}</Link></li>
                             ))}
                         </ul>
                     </div>
                     <div className="my-[50px] sm:my-0 md:my-0 lg:my-0">
-                        <Link to="/industries"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Region</h3></Link>
+                        <Link to="/industries"><h3 className="my-2 text-[20px] font-bold hover:text-[#FD9800] hover:underline">Region</h3></Link>
                         <ul className="opacity-[0.6]">
                             {Region?.map((item) => (
-                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FFC01D]">{item?.title}</Link></li>
+                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FD9800] hover:underline">{item?.title}</Link></li>
                             ))}
                         </ul>
                     </div>
