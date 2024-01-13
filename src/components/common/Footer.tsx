@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
 import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
+import { AboutUs } from '../../db/footer';
 
 const Footer = () => {
     return (
@@ -25,17 +26,9 @@ const Footer = () => {
                     <div className="my-[50px] sm:my-0 md:my-0 lg:my-0">
                         <Link to="/about-us"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">About Us</h3></Link>
                         <ul className="opacity-[0.6]">
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">History</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Mission</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Vision</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Values</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Team</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Accomplishment</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Blog</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Terms &amp; Conditions</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Privacy Policy</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Feedback</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Need Help?</Link></li>
+                            {AboutUs?.map((item) => (
+                              <li key={item?.id}><Link to={item?.url} className="hover:text-[#FFC01D]">{item?.title}</Link></li>
+                            ))}
 
                         </ul>
                     </div>
