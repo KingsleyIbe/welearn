@@ -1,3 +1,4 @@
+import Footer from '../common/Footer';
 import Heading from '../common/Heading';
 import Caption1 from './Caption1';
 import Card from './Card';
@@ -14,6 +15,7 @@ const index = () => {
         <SampleCourses />
         <Card />
         <TopCoursesAndSkills />
+        <Footer />
     </div>
   );
 };
