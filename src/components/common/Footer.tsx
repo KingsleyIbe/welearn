@@ -31,7 +31,12 @@ const Footer = () => {
                             <li><Link to="/about-us" className="hover:text-[#FFC01D]">Values</Link></li>
                             <li><Link to="/about-us" className="hover:text-[#FFC01D]">Team</Link></li>
                             <li><Link to="/about-us" className="hover:text-[#FFC01D]">Accomplishment</Link></li>
-                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Promises</Link></li>
+                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Blog</Link></li>
+                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Terms &amp; Conditions</Link></li>
+                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Privacy Policy</Link></li>
+                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Feedback</Link></li>
+                            <li><Link to="/about-us" className="hover:text-[#FFC01D]">Need Help?</Link></li>
+
                         </ul>
                     </div>
                     <div>
@@ -49,7 +54,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="my-[50px] sm:my-0 md:my-0 lg:my-0">
-                        <Link to="/industries"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Countries</h3></Link>
+                        <Link to="/industries"><h3 className="my-2 text-[20px] font-bold hover:text-[#FFC01D]">Region</h3></Link>
                         <ul className="opacity-[0.6]">
                             <li><Link to="/industries" className="hover:text-[#FFC01D]">Africa</Link></li>
                             <li><Link to="/industries" className="hover:text-[#FFC01D]">Europe</Link></li>
@@ -57,9 +62,7 @@ const Footer = () => {
                             <li><Link to="/industries" className="hover:text-[#FFC01D]">North America</Link></li>
                             <li><Link to="/industries" className="hover:text-[#FFC01D]">South America</Link></li>
                             <li><Link to="/industries" className="hover:text-[#FFC01D]">Antarctica</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Home &amp; Personal</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Government</Link></li>
-                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Transport &amp; Logistics</Link></li>
+                            <li><Link to="/industries" className="hover:text-[#FFC01D]">Australia</Link></li>
                         </ul>
                     </div>
                 </div>
