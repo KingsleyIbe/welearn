@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
 import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { AboutUs, CourseYouLove, Region } from '../../db/footer';
 
 const Footer = () => {
