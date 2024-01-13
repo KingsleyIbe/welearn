@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import Facebook from '../../assets/images/welearn.png';
 import Instagram from '../../assets/images/welearn.png';
 import Twitter from '../../assets/images/logo.png';
 import LinkedIn from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
+import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -69,16 +71,16 @@ const Footer = () => {
         </div>
         <div>
           <ul className="flex gap-2 items-center lg:w-[100%] sm:mt-10 xsm:text-[#f00] sm:w-[50%] sm:m-auto md:mt-10 md:w-[50%] md:m-auto">
-            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/prudenceConcept" target="__blank"><img src={Facebook} alt="Facebook icon" /></a></li>
-            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/prudenceconcept/" target="__blank"><img src={Instagram} alt="Facebook icon" /></a></li>
-            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/PrudenceConcept" target="__blank"><img src={Twitter} alt="Facebook icon" /></a></li>
-            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.linkedin.com/company/69190691/admin/" target="__blank"><img src={LinkedIn} alt="Facebook icon" /></a></li>
+            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/prudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
+            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/prudenceconcept/" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
+            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/PrudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
+            <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.linkedin.com/company/69190691/admin/" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
           </ul>
         </div>
       </div>
       <div className="my-10 text-center">
         <img src={line} alt="Line" />
-        <p className="text-[#fff] mt-10">Copyright ® 2022 Prudence Concept All rights Reserved</p>
+        <p className="mt-10">Copyright ® 2022 Prudence Concept All rights Reserved</p>
       </div>
     </div>
   );
