@@ -9,10 +9,22 @@
   padding: 0;
 }
 
+/* color 1: #F4F6FC */
+/* color 2: #EAF3FF */
+/* color 2: #764ABC */
+/* color 4: #FD9800 */
+/* color 5: #00D8FF */
 body {
   color: #fff;
   /* color: #262626; */
-  background-color: #ccad8f;
+  /* background-color: #ccad8f; */
+  background-color: #181842;
+  font-size: 16px;
+}
+
+input {
+  outline: none;
+  color: #000;
 }
 
 a {
@@ -21,4 +33,51 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.s-input::placeholder {
+  background-color: #FD9800;
+  color: #181842;
+}
+
+.s-input {
+  background-color: #FD9800;
+}
+
+.sample-courses {
+  margin-top: 100px;
+}
+
+.parent-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.child-flex-wrap {
+  flex: 0 31%; /*lower the % to get more columns - raise % to get less*/
+  flex-grow: 1;
+  background-color: #F4F6FC; /*change the color (just orange to show outline)*/
+  height: 500px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 21px;
+}
+
+.truncate-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.card-image {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
