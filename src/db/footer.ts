@@ -1,3 +1,5 @@
+import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 export const AboutUs = [
     {
         id: 1,
@@ -139,5 +141,28 @@ export const Region = [
         id: 7,
         title: 'Australia',
         url: '/region'
+    },
+]
+
+export const SocialMedia = [
+    {
+        id: 1,
+        icon: faFacebook,
+        url: 'https://www.facebook.com/'
+    },
+    {
+        id: 2,
+        icon: faTwitter,
+        url: 'https://twitter.com/'
+    },
+    {
+        id: 3,
+        icon: faLinkedin,
+        url: 'https://www.linkedin.com/'
+    },
+    {
+        id: 4,
+        title: faInstagram,
+        url: 'https://www.instagram.com/'
     },
 ]

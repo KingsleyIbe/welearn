@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
 import line from '../../assets/images/weteach.png';
 import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { AboutUs, CourseYouLove, Region } from '../../db/footer';
 
 const Footer = () => {
@@ -53,10 +54,10 @@ const Footer = () => {
                 <div>
                     <h2 className="font-bold mb-2">Follow Us</h2>
                     <ul className="flex gap-2 items-center lg:w-[100%] xsm:text-[#f00] sm:w-[50%] sm:m-auto md:w-[50%] md:m-auto">
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/prudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/prudenceconcept/" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/PrudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
-                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.linkedin.com/company/69190691/admin/" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
+                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/" target="__blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/" target="__blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/" target="__blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                        <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.linkedin.com/" target="__blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                     </ul>
                 </div>
             </div>
