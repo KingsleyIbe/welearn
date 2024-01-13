@@ -67,7 +67,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <ul className="flex gap-2 items-center lg:w-[100%] sm:mt-10 xsm:text-[#f00] sm:w-[50%] sm:m-auto md:mt-10 md:w-[50%] md:m-auto">
+                    <h2 className="font-bold mb-2">Follow Us</h2>
+                    <ul className="flex gap-2 items-center lg:w-[100%] xsm:text-[#f00] sm:w-[50%] sm:m-auto md:w-[50%] md:m-auto">
                         <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.facebook.com/prudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
                         <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://www.instagram.com/prudenceconcept/" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
                         <li className="hover:bg-[#FFC01D] hover:rounded-[100%]"><a href="https://twitter.com/PrudenceConcept" target="__blank"><FontAwesomeIcon icon={faFaceFrown} /></a></li>
