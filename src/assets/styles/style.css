@@ -20,6 +20,7 @@ body {
   /* background-color: #ccad8f; */
   background-color: #181842;
   font-size: 16px;
+  position: relative;
 }
 
 input {
