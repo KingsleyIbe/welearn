@@ -37,7 +37,7 @@ const Form = () => {
                     </form>
                     <div className="text-[#ccc] text-center gap-2">
                         <p>Don&#39;t have an account?</p>
-                        <Link to="/sign-up" className="text-[#ff9900] hover:text-[#ccc] underline mb-5">Sign Up</Link>
+                        <Link to="/sign-up" className="font-bold text-[#ff9900] hover:text-[#ccc] underline mb-5">Sign Up</Link>
                         <br/>
                         <br/>
                         <Link to="/password-recovery" className="hover:text-[#ff9900] underline ">Forgot your password?</Link>
