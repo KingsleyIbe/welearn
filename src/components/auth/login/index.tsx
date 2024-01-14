@@ -1,10 +1,10 @@
 import Form from "./Form";
-import Title from "./Title";
+// import Title from "./Title";
 
 const Login = () => {
     return (
         <div>
-            <Title />
+            {/* <Title /> */}
             <Form />
         </div>
     );

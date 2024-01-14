@@ -3,10 +3,18 @@ import { Link } from 'react-router-dom';
 import {
   faEye, faLock, faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+import LoginImage from '../../../assets/images/loginImage.jpg';
+import Title from './Title';
 
 const Form = () => (
-  <div className="mt-5">
-    <form>
+  <div className="">
+    <div className="flex flex-row gap-10">
+    <div className="w-[50vw]">
+        <img src={LoginImage} alt="Tutoring guys" className="h-[100vh] w-[50vw]" />
+    </div>
+    <div>
+        <Title />
+    <form className="w-[50vw]">
       <label htmlFor="email" className="input-active-border register-input-bolder flex flex-row gap-4 items-center my-5 p-2">
         <FontAwesomeIcon icon={faEnvelope} className="opacity-[0.2]" />
         <input type="email" placeholder="Email" />
@@ -27,6 +35,9 @@ const Form = () => (
     <div className="mt-2 opacity-[0.5] text-center">
       <Link to="/password-recovery">Forgot your password?</Link>
     </div>
+    </div>
+    </div>
+    
   </div>
 );
 
