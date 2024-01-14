@@ -6,7 +6,7 @@ import Welearn from '../../assets/images/weteach.png';
 
 const Heading = () => {
   return (
-    <div className="flex flex-row justify-between p-10">
+    <div className="flex flex-row justify-between p-10 fixed">
         <div>
             <Link to="/#"><img src={Welearn} alt="Site Logo" className="w-[130px]" /></Link>
         </div>

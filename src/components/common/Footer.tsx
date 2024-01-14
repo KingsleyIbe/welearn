@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/weteach.png';
-import line from '../../assets/images/weteach.png';
-import { faFaceFrown } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { AboutUs, CourseYouLove, Region } from '../../db/footer';
 
 const Footer = () => {
@@ -62,7 +59,6 @@ const Footer = () => {
                 </div>
             </div>
             <div className="my-10 text-center">
-                {/* <img src={line} alt="Line" /> */}
                 <p className="mt-10">Copyright ® 2024 weTeach All rights Reserved</p>
             </div>
         </div>
