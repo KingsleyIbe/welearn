@@ -32,16 +32,14 @@ const Form = () => {
                             <input type={toggle ? "text" : "password"} placeholder="Password" className="w-[100%] login-input" />
                             <button type="button" onClick={handleToggle}><FontAwesomeIcon icon={faEye} className="text-[#ccc]" /></button>
                         </label>
-                        <div className="flex flex-col items-center justify-center my-5 p-2">
-                            <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Continue</button>
+                        <div className="items-center justify-cente my-5 p-2 w-[20%] m-auto">
+                            <button type="submit" className="rounded-[8px] px-[21px] w-[100%] py-[12px] bg-[#FF9900] text-[#000]">Login</button>
                         </div>
                     </form>
-                    <div className="flex flex-row items-center gap-2">
+                    <div className="fle fle-row items-center text-center gap-2">
                         <p>Don&#39;t have an account?</p>
                         <Link to="/sign-up" className="text-[#ff9900] underline">Sign Up</Link>
-                    </div>
-                    <div className="mt-2 opacity-[0.5] text-center">
-                        <Link to="/password-recovery">Forgot your password?</Link>
+                        <Link to="/password-recovery" className="mt-2 ">Forgot your password?</Link>
                     </div>
                 </div>
             </div>
