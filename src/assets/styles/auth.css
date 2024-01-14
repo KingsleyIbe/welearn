@@ -1,0 +1,22 @@
+.register-input-bolder {
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 4px;
+}
+
+input::placeholder {
+  border: none;
+  font-size: 14px;
+}
+
+.input-active-border:active {
+  border: 1px solid #f90;
+  background-color: rgb(209, 165, 99);
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
