@@ -8,10 +8,10 @@ input::placeholder {
   font-size: 14px;
 }
 
-.input-active-border:active {
+/* .input-active-border:active {
   border: 1px solid #f90;
   background-color: rgb(209, 165, 99);
-}
+} */
 
 .border-right {
   border-right: 1px solid #ccc;
@@ -19,4 +19,9 @@ input::placeholder {
 
 .border-bottom {
   border-bottom: 1px solid #ccc;
+}
+
+.login-input {
+    background-color: #181842;
+    color: #ccc;
 }

@@ -15,17 +15,17 @@ const Form = () => (
     <div>
         <Title />
     <form className="w-[50vw]">
-      <label htmlFor="email" className="input-active-border register-input-bolder flex flex-row gap-4 items-center my-5 p-2">
+      <label htmlFor="email" className="w-[70%] input-active-border register-input-bolder flex flex-row gap-4 items-center my-5 p-2">
         <FontAwesomeIcon icon={faEnvelope} className="opacity-[0.2]" />
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="Email"  className="w-[100%] login-input" />
       </label>
-      <label htmlFor="password" className="input-active-border register-input-bolder flex flex-row gap-4 items-center my-5 p-2">
+      <label htmlFor="password" className="w-[70%] input-active-border register-input-bolder flex flex-row gap-4 items-center my-5 p-2">
         <FontAwesomeIcon icon={faLock} className="opacity-[0.2]" />
-        <input type="password" placeholder="Password" />
+        <input type="password" placeholder="Password" className="w-[100%] login-input" />
         <FontAwesomeIcon icon={faEye} className="opacity-[0.2]" />
       </label>
       <div className="flex flex-col items-center justify-center my-5 p-2">
-        <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] w-[100%] text-[#000]">Continue</button>
+        <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Continue</button>
       </div>
     </form>
     <div className="flex flex-row items-center gap-2">
