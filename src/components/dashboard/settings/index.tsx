@@ -1,6 +1,6 @@
 import Heading from "../../../components/common/Heading";
 import DashboardHeader from "../DashboardHeader";
-import Form from "./Form";
+import Form from "./ChangePasswordForm";
 
 const index = () => {
     return (
