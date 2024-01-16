@@ -8,6 +8,7 @@ import MyAdsPage from '../pages/MyAdsPage';
 import MyAccountPage from '../pages/MyAccountPage';
 import MySubscriptionsPage from '../pages/MySubscriptionsPage';
 import MyMessagesPage from '../pages/MyMessagesPage';
+import SettingsPage from '../pages/SettingsPage';
 
 const LinkRoutes = () => {
   return (
@@ -21,6 +22,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard/my-account" element={<MyAccountPage />} />
         <Route path="/dashboard/my-messages" element={<MyMessagesPage />} />
         <Route path="/dashboard/my-subscriptions" element={<MySubscriptionsPage />} />
+        <Route path="/dashboard/settings" element={<SettingsPage />} />
       </Routes>
   );
 };
