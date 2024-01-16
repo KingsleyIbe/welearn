@@ -1,13 +1,15 @@
 import Heading from "../../../components/common/Heading";
 import DashboardHeader from "../DashboardHeader";
-import Form from "./ChangePasswordForm";
+import ChangeEmailForm from "./ChangeEmailForm";
+import ChangePasswordForm from "./ChangePasswordForm";
+import Settings from "./Settings";
 
 const index = () => {
     return (
         <div>
             <Heading />
             <DashboardHeader />
-            <Form />
+            <Settings />
         </div>
     );
 };

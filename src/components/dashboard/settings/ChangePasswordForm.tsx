@@ -1,9 +1,6 @@
 const ChangePasswordForm = () => {
     return (
-        <div className="w-[93%] p-5 bg-[#F4F6FC] text-[#181842] m-auto rounded-[8px] mt-5">
-            <h1 className="mb-10 font-bold text-[32px]">Settings</h1>
-            <hr />
-
+        <div>
             <form action="">
                 <h2 className="font-bold my-10 text-[18px]">Change password</h2>
                 <div className="w-[100%] m-auto flex flex-col items-end gap-1">
