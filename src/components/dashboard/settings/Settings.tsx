@@ -1,5 +1,6 @@
 import ChangeEmailForm from "./ChangeEmailForm";
 import ChangePasswordForm from "./ChangePasswordForm";
+import DeleteUser from "./DeleteUser";
 
 const Settings = () => {
     return (
@@ -8,6 +9,7 @@ const Settings = () => {
             <hr />
             <ChangePasswordForm />
             <ChangeEmailForm />
+            <DeleteUser />
         </div>
     );
 };
