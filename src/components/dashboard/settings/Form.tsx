@@ -6,12 +6,20 @@ const Form = () => {
 
             <form action="">
                 <h2 className="font-bold my-10 text-[18px]">Change password</h2>
-                <div className="w-[70%] m-auto">
+                <div className="w-[70%] m-auto flex flex-col gap-1">
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
-                  <label htmlFor="confirm_password" className="">Current password:</label>
-                  <input type="password" placeholder="Current Password" className="register-input-bolder p-2 w-[300px]" />
-                  </div>
-      
+                        <label htmlFor="confirm_password" className="items-end">Current password:</label>
+                        <input type="password" placeholder="Current Password" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="items-end">New password:</label>
+                        <input type="password" placeholder="New password" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="">Confirm new password:</label>
+                        <input type="password" placeholder="Confirm new password" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+
                 </div>
             </form>
         </div>
