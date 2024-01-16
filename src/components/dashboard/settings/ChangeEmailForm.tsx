@@ -9,7 +9,7 @@ const ChangeEmailForm = () => {
                         <input type="password" placeholder="example@gmail.com" className="register-input-bolder p-2 w-[300px]" />
                     </div>
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
-                        <p className="text-[#f00]">We will send you an email to verify your account</p>
+                        <p className="text-[#000] opacity-[0.6]">We will send you an email to verify your account</p>
                     </div>
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">
