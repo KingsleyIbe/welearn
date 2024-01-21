@@ -1,6 +1,14 @@
+import Footer from "@/components/common/Footer";
+import Heading from "@/components/common/Heading";
+import DashBoardPage from "@/pages/DashBordPage";
+
 const index = () => {
     return (
-        <div>My messages coming soon...</div>
+        <div>
+            <Heading />
+            <DashBoardPage />
+            <Footer />
+        </div>
     );
 };
 
