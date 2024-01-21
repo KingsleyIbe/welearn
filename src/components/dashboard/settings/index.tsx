@@ -5,11 +5,13 @@ import Settings from "./Settings";
 
 const index = () => {
     return (
-        <div className="relative">
+        <div>
             <Heading />
             <DashboardHeader />
-            <Settings />
-            <Footer />
+            <div className="relative">
+                <Settings />
+                <Footer />
+            </div>
         </div>
     );
 };

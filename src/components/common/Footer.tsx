@@ -7,7 +7,7 @@ import { AboutUs, CourseYouLove, Region } from '../../db/footer';
 const Footer = () => {
     return (
         <div
-            className="bg-[#EAF3FF] text-[#181842] p-10 footer"
+            className="bg-[#EAF3FF] text-[#181842] p-10 footer z-10"
         >
             <div className="lg:flex gap-[50px] items-center">
                 <div className="flex gap-10 items-center">
