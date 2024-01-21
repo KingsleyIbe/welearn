@@ -18,8 +18,8 @@ const ChangePasswordForm = () => {
                     </div>
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">
-        <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Submit changes</button>
-      </div>
+                    <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Submit changes</button>
+                </div>
             </form>
         </div>
     );
