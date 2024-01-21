@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {
   faUser, faUserTie, faLock, faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+import { Button } from 'react-button-click';
 import LoginImage from '../../../assets/images/loginImage.jpg';
 
 const Form = () => (
@@ -38,6 +39,7 @@ const Form = () => (
       <div className="flex flex-col gap-5">
       <div className="flex flex-col items-center justify-center p-2">
         <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] w-[30%] text-[#000]">Sign up for free</button>
+        <Button />
       </div>
       <div className="w-[50vw] text-center">
     <div className="">
