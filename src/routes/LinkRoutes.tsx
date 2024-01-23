@@ -17,7 +17,7 @@ const LinkRoutes = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/dashboard" element={<DashBoardPage />} />
-        <Route path="/dashboard/rewiews" element={<ReviewsPage />} />
+        <Route path="/dashboard/reviews" element={<ReviewsPage />} />
         <Route path="/dashboard/my-ads" element={<MyAdsPage />} />
         <Route path="/dashboard/my-account" element={<MyAccountPage />} />
         <Route path="/dashboard/my-messages" element={<MyMessagesPage />} />
