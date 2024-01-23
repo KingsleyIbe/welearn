@@ -10,6 +10,7 @@ import MySubscriptionsPage from '../pages/MySubscriptionsPage';
 import MyMessagesPage from '../pages/MyMessagesPage';
 import SettingsPage from '../pages/SettingsPage';
 import ScheduledLessonsPage from '../pages/ScheduledLessonsPage';
+import MyStudentsPage from '../pages/MyStudentsPage';
 
 const LinkRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard/my-subscriptions" element={<MySubscriptionsPage />} />
         <Route path="/dashboard/settings" element={<SettingsPage />} />
         <Route path="/dashboard/scheduled-lessons" element={<ScheduledLessonsPage />} />
+        <Route path="/dashboard/my-students" element={<MyStudentsPage />} />
       </Routes>
   );
 };
