@@ -11,6 +11,7 @@ import MyMessagesPage from '../pages/MyMessagesPage';
 import SettingsPage from '../pages/SettingsPage';
 import ScheduledLessonsPage from '../pages/ScheduledLessonsPage';
 import MyStudentsPage from '../pages/MyStudentsPage';
+import ProfilePage from '../pages/ProfilePage';
 
 const LinkRoutes = () => {
   return (
@@ -27,6 +28,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard/settings" element={<SettingsPage />} />
         <Route path="/dashboard/scheduled-lessons" element={<ScheduledLessonsPage />} />
         <Route path="/dashboard/my-students" element={<MyStudentsPage />} />
+        <Route path="/dashboard/profile" element={<ProfilePage />} />
       </Routes>
   );
 };
