@@ -99,3 +99,7 @@ li {
   text-decoration: underline;
   color: #FD9800;
 }
+
+.profile-btn {
+  outline: none;
+}
