@@ -24,7 +24,7 @@ const Heading = () => {
       <nav>
         <ul className="flex flex-row gap-5 items-center justify-center">
           <li><Link to="/help"><FontAwesomeIcon icon={faCircleQuestion} /></Link></li>
-          <li><Link to="/tutoring-jobs">Tutoring Jobs</Link></li>
+          <li><Link to="/tutoring-jobs">Teaching Jobs</Link></li>
           {loggedin ? (
             <li>
               <button type="button" onClick={handleDropdown} className="flex flex-row gap-2 items-center profile-btn">
@@ -40,9 +40,7 @@ const Heading = () => {
       </nav>
     </div>
     {dropDown && (
-      <div className="relative">
         <DropdownMenu />
-      </div>
       )}
     </>
   );
