@@ -5,12 +5,14 @@ const DashboardItems = () => {
     const [subjects, setSubjects] = useState(false);
     const [profileDesc, setProfileDesc] = useState(false);
     const [eduExp, setEduExp] = useState(false);
+    const [priceCat, setPriceCat] = useState(false);
 
     const handleBasicInfo = () => {
         setBasicInfo(true);
         setSubjects(false);
         setProfileDesc(false);
         setEduExp(false);
+        setPriceCat(false);
     };
 
     const handleSubjects = () => {
@@ -18,17 +20,28 @@ const DashboardItems = () => {
         setBasicInfo(false);
         setProfileDesc(false);
         setEduExp(false);
+        setPriceCat(false);
     };
 
     const handleProfileDesc = () => {
         setProfileDesc(true);
         setSubjects(false);
         setBasicInfo(false);
-        setEduExp(false)
+        setEduExp(false);
+        setPriceCat(false);
     };
 
     const handleEduEx = () => {
         setEduExp(true);
+        setProfileDesc(false);
+        setSubjects(false);
+        setBasicInfo(false);
+        setPriceCat(false);
+    };
+
+    const handlePriceCat = () => {
+        setPriceCat(true);
+        setEduExp(false);
         setProfileDesc(false);
         setSubjects(false);
         setBasicInfo(false);
@@ -46,8 +59,8 @@ const DashboardItems = () => {
                             <li><button type="button" onClick={handleBasicInfo}>Basic Info</button></li>
                             <li><button type="button" onClick={handleSubjects}>Subjects</button></li>
                             <li><button type="button" onClick={handleProfileDesc}>Profile Description</button></li>
-                            <li><button type="button">Education and experience</button></li>
-                            <li><button type="button">Price and Category</button></li>
+                            <li><button type="button" onClick={handleEduEx}>Education and experience</button></li>
+                            <li><button type="button" onClick={handlePriceCat}>Price and Category</button></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,6 +68,7 @@ const DashboardItems = () => {
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
                 {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
                 {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
+                {priceCat && <div className="bg-[#ddd]">Price Category</div>}
             </div>
         </div>
     );
