@@ -1,6 +1,8 @@
 const TutorProfile = () => {
     return (
-        <div></div>
+        <div>
+            new
+        </div>
     );
 };
 
