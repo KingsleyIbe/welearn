@@ -1,23 +1,30 @@
+import { useState } from "react";
+
 const DashboardItems = () => {
+    const [basicInfo, setBasicInfo] = useState(false);
+
+    const handleBasicInfo = () => {
+        setBasicInfo(true);
+    }
     return (
-        <div className="text-center font-bold text-[30px] my-[200px] px-10">
+        <div className="my-[200px] px-10">
             <div className="flex flex-row gap-2">
-                <div className="bg-[#ccc]">
-                    <div>
-                        <h3>Congratulations! Your profile has been approved</h3>
+                <div className="w-[30%]">
+                    <div className="">
+                        <h3 className="mb-2">Congratulations! Your profile has been approved</h3>
                         <p>Your profile is now public! You are now ready to teach on Weteach.</p>
                     </div>
-                    <nav>
+                    <nav className="mt-10">
                         <ul>
-                            <li><button type="button">Basic Info</button></li>
+                            <li><button type="button" onClick={handleBasicInfo}>Basic Info</button></li>
                             <li><button type="button">Subjects</button></li>
                             <li><button type="button">Profile Description</button></li>
                             <li><button type="button">Education and experience</button></li>
-                            <li><button type="button">Education and experience</button></li>
+                            <li><button type="button">Price and Category</button></li>
                         </ul>
                     </nav>
                 </div>
-                <div className="bg-[#ddd]">Old</div>
+                {basicInfo && <div className="bg-[#ddd]">Old</div>}
             </div>
         </div>
     );
