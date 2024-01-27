@@ -3,14 +3,23 @@ import { useState } from "react";
 const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(false);
     const [subjects, setSubjects] = useState(false);
+    const [profileDesc, setProfileDesc] = useState(false);
 
     const handleBasicInfo = () => {
         setBasicInfo(true);
         setSubjects(false);
+        setProfileDesc(false);
     };
 
     const handleSubjects = () => {
         setSubjects(true);
+        setBasicInfo(false);
+        setProfileDesc(false);
+    };
+
+    const handleProfileDesc = () => {
+        setProfileDesc(true);
+        setSubjects(false);
         setBasicInfo(false);
     };
     return (
@@ -25,7 +34,7 @@ const DashboardItems = () => {
                         <ul>
                             <li><button type="button" onClick={handleBasicInfo}>Basic Info</button></li>
                             <li><button type="button" onClick={handleSubjects}>Subjects</button></li>
-                            <li><button type="button">Profile Description</button></li>
+                            <li><button type="button" onClick={handleProfileDesc}>Profile Description</button></li>
                             <li><button type="button">Education and experience</button></li>
                             <li><button type="button">Price and Category</button></li>
                         </ul>
@@ -33,6 +42,7 @@ const DashboardItems = () => {
                 </div>
                 {basicInfo && <div className="bg-[#ddd]">Old</div>}
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
+                {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
             </div>
         </div>
     );
