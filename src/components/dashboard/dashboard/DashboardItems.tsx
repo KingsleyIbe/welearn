@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BasicInfo from "./BasicInfo";
 
 const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(false);
@@ -64,7 +65,7 @@ const DashboardItems = () => {
                         </ul>
                     </nav>
                 </div>
-                {basicInfo && <div className="bg-[#ddd]">Basic Info</div>}
+                {basicInfo && <div className="bg-[#ddd]"><BasicInfo /></div>}
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
                 {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
                 {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
