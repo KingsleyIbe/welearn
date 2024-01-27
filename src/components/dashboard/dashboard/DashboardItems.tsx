@@ -4,21 +4,32 @@ const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(false);
     const [subjects, setSubjects] = useState(false);
     const [profileDesc, setProfileDesc] = useState(false);
+    const [eduExp, setEduExp] = useState(false);
 
     const handleBasicInfo = () => {
         setBasicInfo(true);
         setSubjects(false);
         setProfileDesc(false);
+        setEduExp(false);
     };
 
     const handleSubjects = () => {
         setSubjects(true);
         setBasicInfo(false);
         setProfileDesc(false);
+        setEduExp(false);
     };
 
     const handleProfileDesc = () => {
         setProfileDesc(true);
+        setSubjects(false);
+        setBasicInfo(false);
+        setEduExp(false)
+    };
+
+    const handleEduEx = () => {
+        setEduExp(true);
+        setProfileDesc(false);
         setSubjects(false);
         setBasicInfo(false);
     };
@@ -43,6 +54,7 @@ const DashboardItems = () => {
                 {basicInfo && <div className="bg-[#ddd]">Old</div>}
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
                 {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
+                {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
             </div>
         </div>
     );
