@@ -12,13 +12,16 @@ import {
     const [stateid, setstateid] = useState(0);
     return (
       <div>
-        <h6>Country</h6>
-        <CountrySelect
+         <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="items-end">Country of Origin:</label>
+                        <CountrySelect
           onChange={(e) => {
             setCountryid(e.id);
           }}
           placeHolder="Select Country"
+          className="register-input-bolder p-2 w-[300px]"
         />
+                    </div>
         <h6>State</h6>
         <StateSelect
           countryid={countryid}
