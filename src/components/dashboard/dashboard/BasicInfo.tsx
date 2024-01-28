@@ -23,13 +23,13 @@ const BasicInfo = () => {
                     <div className="items-center w-[35%] m-auto ">
                         <h3 className="opacity-[0.6] mt-10">Tips for an incredible photo:</h3>
                         <ul className="flex flex-col ml-10 gap-2 text-start justify-center photo-tips">
-                            <li>Smile and look at the camera</li>
-                            <li>Centre your head and shoulders</li>
-                            <li>Make sure your picture is centred and upright</li>
-                            <li>Use neutral lighting and backgrounds</li>
-                            <li>Your face and eyes should be fully visible (unless you have cultural reasons that contradict this)</li>
-                            <li>Avoid logos or contact information</li>
-                            <li>You should be the only person in the photo</li>
+                            <li>Smile and look at the camera.</li>
+                            <li>Centre your head and shoulders.</li>
+                            <li>Make sure your picture is centred and upright.</li>
+                            <li>Use neutral lighting and backgrounds.</li>
+                            <li>Your face and eyes should be fully visible (unless you have cultural reasons that contradict this).</li>
+                            <li>Avoid logos or contact information.</li>
+                            <li>You should be the only person in the photo.</li>
                         </ul>
                     </div>
                 </div>
