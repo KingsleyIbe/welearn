@@ -3,7 +3,7 @@ const UserData = () => {
         <div>
             <form action="">
                 <h2 className="font-bold my-10 text-[18px]">Change Name</h2>
-                <div className="w-[100%] m-auto flex flex-col items-start gap-1">
+                <div className="w-[100%] m-auto flex flex-col items-end gap-1">
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
                         <label htmlFor="confirm_password" className="items-end">First Name:</label>
                         <input type="text" placeholder="First Name" className="register-input-bolder p-2 w-[300px]" />
@@ -24,6 +24,21 @@ const UserData = () => {
                             <option>Female</option>
                         </select>
 
+                    </div>
+                </div>
+                <h2 className="font-bold my-10 text-[18px]">Location</h2>
+                <div className="w-[100%] m-auto flex flex-col items-end gap-1">
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="items-end">Country of Origin:</label>
+                        <input type="text" placeholder="Country" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="items-end">Contry of Residence:</label>
+                        <input type="text" placeholder="Last Name" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="">Mobile Phone (optional):</label>
+                        <input type="number" placeholder="Phone" className="register-input-bolder p-2 w-[300px]" />
                     </div>
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">
