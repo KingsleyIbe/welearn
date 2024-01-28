@@ -50,10 +50,11 @@ const DashboardItems = () => {
     return (
         <div className="my-[200px] px-10">
             <div className="flex flex-row gap-2">
-                <div className="w-[30%]">
+                <div className="w-[30%] bg-[#EAF3FF] text-[#181842] p-10 rounded-[8px]">
                     <div className="">
                         <h3 className="mb-2">Congratulations! Your profile has been approved</h3>
-                        <p>Your profile is now public! You are now ready to teach on Weteach.</p>
+                        <p className="mb-2">Your profile is now public! You are now ready to teach on Weteach.</p>
+                        <hr />
                     </div>
                     <nav className="mt-10">
                         <ul>
@@ -65,7 +66,7 @@ const DashboardItems = () => {
                         </ul>
                     </nav>
                 </div>
-                {basicInfo && <div className="bg-[#ddd]"><BasicInfo /></div>}
+                {basicInfo && <div className="bg-[#fff] text-[#181842] p-10 rounded-[8px]"><BasicInfo /></div>}
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
                 {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
                 {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
