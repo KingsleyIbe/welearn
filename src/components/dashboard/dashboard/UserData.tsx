@@ -34,8 +34,10 @@ const UserData = () => {
                     <Location />
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
                         <Phone />
-
                     </div>
+                    <div className="w-[60%] flex flex-col text-end">
+                    <p>Don't worry, it won't be visible on Weteach. We will only use it to contact you in case you need help.</p>
+                </div>
 
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">

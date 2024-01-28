@@ -35,10 +35,10 @@ const BasicInfo = () => {
                             <li>Make sure your picture is centred and upright.</li>
                             {isReadMore && (
                                 <ul>
-                                <li>Use neutral lighting and backgrounds.</li>
-                                <li>Your face and eyes should be fully visible (unless you have cultural reasons that contradict this).</li>
-                                <li>Avoid logos or contact information.</li>
-                                <li>You should be the only person in the photo.</li>
+                                    <li>Use neutral lighting and backgrounds.</li>
+                                    <li>Your face and eyes should be fully visible (unless you have cultural reasons that contradict this).</li>
+                                    <li>Avoid logos or contact information.</li>
+                                    <li>You should be the only person in the photo.</li>
                                 </ul>
                             )}
                         </ul>
