@@ -10,7 +10,7 @@ const DashboardItems = () => {
     const [priceCat, setPriceCat] = useState(false);
 
     const handleBasicInfo = () => {
-        setBasicInfo(false);
+        setBasicInfo(true);
         setSubjects(false);
         setProfileDesc(false);
         setEduExp(false);

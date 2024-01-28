@@ -121,3 +121,7 @@ li {
   list-style-type: disc;
   opacity: 0.6;
 }
+
+.subject-edit {
+  border: 1px dotted #000;
+}
