@@ -66,7 +66,7 @@ const DashboardItems = () => {
                         </ul>
                     </nav>
                 </div>
-                {basicInfo && <div className="bg-[#fff] text-[#181842] p-10 rounded-[8px]"><BasicInfo /></div>}
+                {basicInfo && <div><BasicInfo /></div>}
                 {subjects && <div className="bg-[#ddd]">Subjects</div>}
                 {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
                 {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
