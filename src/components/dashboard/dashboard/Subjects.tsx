@@ -21,6 +21,9 @@ const Subjects = () => {
                 </div>
                 <p className="opacity-[0.4]">Javascript - Ruby - HTML - CSS - Nodejs - React - Python - Typescript</p>
             </div>
+            <div>
+              <input type="text" placeholder="Select or write your subject e.g Maths" className="register-input-bolder p-2 w-[100%]" />
+            </div>
         </div>
     );
 };
