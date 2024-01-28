@@ -1,4 +1,5 @@
 import ProfilePhoto from '../../../assets/images/photo1.jpg';
+import UserData from './UserData';
 const BasicInfo = () => {
     return (
         <div className="bg-[#fff] text-[#181842] p-10 rounded-[8px]">
@@ -32,6 +33,7 @@ const BasicInfo = () => {
                             <li>You should be the only person in the photo.</li>
                         </ul>
                     </div>
+                    <UserData />
                 </div>
             </div>
         </div>
