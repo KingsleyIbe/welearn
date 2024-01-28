@@ -1,4 +1,5 @@
 import Location from "./Location";
+import Phone from "./Phone";
 
 const UserData = () => {
     return (
@@ -31,6 +32,7 @@ const UserData = () => {
                 <h2 className="font-bold my-10 text-[18px]">Location</h2>
                 <div className="w-[100%] m-auto flex flex-col items-end gap-1">
                     <Location />
+                    <Phone />
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
                         <label htmlFor="confirm_password" className="">Mobile Phone (optional):</label>
                     
