@@ -116,3 +116,8 @@ li {
   border: #F4F6FC 1px solid;
   color: #F4F6FC;
 }
+
+.photo-tips li {
+  list-style-type: disc;
+  opacity: 0.6;
+}
