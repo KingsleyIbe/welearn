@@ -30,24 +30,12 @@ const UserData = () => {
                 </div>
                 <h2 className="font-bold my-10 text-[18px]">Location</h2>
                 <div className="w-[100%] m-auto flex flex-col items-end gap-1">
-                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
-                        <label htmlFor="confirm_password" className="items-end">Country of Origin:</label>
-                        <input type="text" placeholder="Country of Origin" className="register-input-bolder p-2 w-[300px]" />
-                    </div>
-                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
-                        <label htmlFor="confirm_password" className="items-end">Contry of Residence:</label>
-                        <input type="text" placeholder="Country of Residence" className="register-input-bolder p-2 w-[300px]" />
-                    </div>
-                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
-                        <label htmlFor="confirm_password" className="items-end">City:</label>
-                        <input type="text" placeholder="Country of Residence" className="register-input-bolder p-2 w-[300px]" />
-                    </div>
+                    <Location />
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
                         <label htmlFor="confirm_password" className="">Mobile Phone (optional):</label>
                     
                         <input type="number" placeholder="Phone" className="register-input-bolder p-2 w-[300px]" />
                     </div>
-                    <Location />
 
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">

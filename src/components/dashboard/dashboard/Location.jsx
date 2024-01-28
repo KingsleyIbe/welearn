@@ -11,7 +11,7 @@ const Location = () => {
   const [countryid, setCountryid] = useState(0);
   const [stateid, setstateid] = useState(0);
   return (
-    <div>
+    <div className="w-[100%] m-auto flex flex-col items-end gap-1">
       <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
         <label htmlFor="confirm_password" className="items-end">Country of Origin:</label>
         <CountrySelect
