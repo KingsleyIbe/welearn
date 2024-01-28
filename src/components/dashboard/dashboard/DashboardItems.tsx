@@ -2,14 +2,14 @@ import { useState } from "react";
 import BasicInfo from "./BasicInfo";
 
 const DashboardItems = () => {
-    const [basicInfo, setBasicInfo] = useState(false);
+    const [basicInfo, setBasicInfo] = useState(true);
     const [subjects, setSubjects] = useState(false);
     const [profileDesc, setProfileDesc] = useState(false);
     const [eduExp, setEduExp] = useState(false);
     const [priceCat, setPriceCat] = useState(false);
 
     const handleBasicInfo = () => {
-        setBasicInfo(true);
+        setBasicInfo(false);
         setSubjects(false);
         setProfileDesc(false);
         setEduExp(false);
