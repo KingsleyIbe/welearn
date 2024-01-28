@@ -103,3 +103,25 @@ li {
 .profile-btn {
   outline: none;
 }
+
+.upload-photo-btn {
+  border: #FD9800 1px solid;
+  padding: 8px 21px;
+  border-radius: 21px;
+  color: #FD9800;
+}
+
+.upload-photo-btn:hover {
+  background-color: #181842;
+  border: #F4F6FC 1px solid;
+  color: #F4F6FC;
+}
+
+.photo-tips li {
+  list-style-type: disc;
+  opacity: 0.6;
+}
+
+.subject-edit {
+  border: 1px dotted #000;
+}
