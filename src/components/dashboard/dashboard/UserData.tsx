@@ -36,8 +36,8 @@ const UserData = () => {
                         <Phone />
                     </div>
                     <div className="w-[60%] flex flex-col text-end">
-                    <p>Don't worry, it won't be visible on Weteach. We will only use it to contact you in case you need help.</p>
-                </div>
+                        <p>Don't worry, it won't be visible on Weteach. We will only use it to contact you in case you need help.</p>
+                    </div>
 
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">
