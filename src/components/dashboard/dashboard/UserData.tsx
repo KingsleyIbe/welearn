@@ -1,3 +1,5 @@
+import Location from "./Location";
+
 const UserData = () => {
     return (
         <div>
@@ -37,12 +39,19 @@ const UserData = () => {
                         <input type="text" placeholder="Country of Residence" className="register-input-bolder p-2 w-[300px]" />
                     </div>
                     <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
+                        <label htmlFor="confirm_password" className="items-end">City:</label>
+                        <input type="text" placeholder="Country of Residence" className="register-input-bolder p-2 w-[300px]" />
+                    </div>
+                    <div className="flex justify-center flex-row gap-5 my-2 items-center p-2">
                         <label htmlFor="confirm_password" className="">Mobile Phone (optional):</label>
+                    
                         <input type="number" placeholder="Phone" className="register-input-bolder p-2 w-[300px]" />
                     </div>
+                    <Location />
+
                 </div>
                 <div className="flex flex-col items-end justify-cente p-2">
-                    <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Submit changes</button>
+                    <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Save and continue</button>
                 </div>
             </form>
         </div>
