@@ -52,7 +52,7 @@ const DashboardItems = () => {
             <div className="flex flex-row gap-2">
                 <div className="w-[30%] bg-[#EAF3FF] text-[#181842] p-10 rounded-[8px]">
                     <div className="">
-                        <h3 className="mb-2">Congratulations! Your profile has been approved</h3>
+                        <h3 className="mb-4 font-bold">Congratulations! Your profile has been approved</h3>
                         <p className="mb-2">Your profile is now public! You are now ready to teach on Weteach.</p>
                         <hr />
                     </div>

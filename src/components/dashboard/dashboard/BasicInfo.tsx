@@ -32,7 +32,7 @@ const BasicInfo = () => {
                         <ul className="flex flex-col ml-10 gap-2 text-start justify-center photo-tips">
                             <li>Smile and look at the camera.</li>
                             <li>Centre your head and shoulders.</li>
-                            <li className="opacity-[0.2]">Make sure your picture is centred and upright.</li>
+                            <li>Make sure your picture is centred and upright.</li>
                             {isReadMore && (
                                 <ul>
                                 <li>Use neutral lighting and backgrounds.</li>
