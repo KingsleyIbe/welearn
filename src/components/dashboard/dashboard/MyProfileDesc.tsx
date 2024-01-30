@@ -53,6 +53,9 @@ const MyProfileDesc = () => {
                             <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read Less' : 'Read More'}</button>
                         </div>
                         <p className="font-bold">Remember to fill your presentation in the languages in which you can teach:</p>
+                        <form>
+                            <textarea placeholder="Write your bio" className="register-input-bolder" />
+                        </form>
                     </div>
                 </div>
             </div>
