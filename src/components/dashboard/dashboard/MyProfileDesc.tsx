@@ -52,9 +52,9 @@ const MyProfileDesc = () => {
                          <div className="flex flex-col items-end text-center text-[#FD9800] font-bold">
                             <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read Less' : 'Read More'}</button>
                         </div>
-                        <p className="font-bold">Remember to fill your presentation in the languages in which you can teach:</p>
+                        <p className="font-bold mt-10 mb-2">Remember to fill your presentation in the languages in which you can teach:</p>
                         <form>
-                            <textarea placeholder="Write your bio" className="register-input-bolder" />
+                            <textarea placeholder="Write your bio" rows={10} className="w-[80%] register-input-bolder p-2" />
                         </form>
                     </div>
                 </div>
