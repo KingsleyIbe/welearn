@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-const MaxRange = () => {
+const MinRange = () => {
     const [numbers, setNumbers] = useState([]);
 
     useEffect(() => {
@@ -17,12 +17,12 @@ const MaxRange = () => {
 
     return (
         <select className="register-input-bolder p-2">
-            <option disabled defaultValue={-1}>Maximum Age</option>
+            <option disabled defaultValue={-1}>Minimum Age</option>
             {numbers.map((item) => (
-                <option key={item.id} value={item?.value}>{item.value}</option>
+                <option key={item.id}>{item.value}</option>
             ))}
         </select>
     );
 };
 
-export default MaxRange;
+export default MinRange;
