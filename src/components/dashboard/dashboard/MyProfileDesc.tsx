@@ -55,6 +55,9 @@ const MyProfileDesc = () => {
                         <p className="font-bold mt-10 mb-2">Remember to fill your presentation in the languages in which you can teach:</p>
                         <form>
                             <textarea placeholder="Write your bio" rows={10} className="w-[80%] register-input-bolder p-2" />
+
+                            <h2 className="my-5 font-semibold">AGE OF YOUR STUDENTS</h2>
+                            <p className="mb-5">Indicate the age range of the students you want to teach:</p>
                         </form>
                     </div>
                 </div>
