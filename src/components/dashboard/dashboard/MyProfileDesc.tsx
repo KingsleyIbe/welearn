@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import ProfilePhoto from '../../../assets/images/photo1.jpg';
-import UserData from './UserData';
+import MaxRange from './MaxRange';
 const MyProfileDesc = () => {
     const [isReadMore, setIsReadMore] = useState(false);
 
@@ -58,6 +57,8 @@ const MyProfileDesc = () => {
 
                             <h2 className="my-5 font-semibold">AGE OF YOUR STUDENTS</h2>
                             <p className="mb-5">Indicate the age range of the students you want to teach:</p>
+
+                            <MaxRange />
                         </form>
                     </div>
                 </div>
