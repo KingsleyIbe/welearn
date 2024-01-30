@@ -52,6 +52,7 @@ const MyProfileDesc = () => {
                          <div className="flex flex-col items-end text-center text-[#FD9800] font-bold">
                             <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read Less' : 'Read More'}</button>
                         </div>
+                        <p className="font-bold">Remember to fill your presentation in the languages in which you can teach:</p>
                     </div>
                 </div>
             </div>
