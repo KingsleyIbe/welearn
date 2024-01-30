@@ -32,16 +32,26 @@ const MyProfileDesc = () => {
                         Tell them about your professional experience. Do you master any programmes or tools?
                     </p>
                     <div>
-                        <p>Introduce yourself as if you were talking to a friend, be direct and friendly,
+                        <div className="ml-10 text-[14px] opacity-[0.7] mt-2">
+                            <span className="text-[#000]">💡</span>
+                        <span>Introduce yourself as if you were talking to a friend, be direct and friendly,
                             we all like positive people. Here is an example: Hello! I'm Stephen Jones,
                             I have a degree in Computer Science from the University of Leeds.
-                            I have worked for the last 5 years in
-                        </p>
+                            I have worked for the last 5 years in 
+                        </span>
                         {isReadMore && (
-                            <p>
-                                
-                            </p>
+                            <span className="ml-1">
+                                 Adidas, about 3 years ago I decided to dedicate myself to the world of
+                                teaching as I found I have a passion for it. I have experience giving online
+                                classes to high school and university students. I like to organise classes
+                                according to the needs of each student, I will be happy to help you achieve
+                                your goals! 👋🏻
+                            </span>
                         )}
+                        </div>
+                         <div className="flex flex-col items-end text-center text-[#FD9800] font-bold">
+                            <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read Less' : 'Read More'}</button>
+                        </div>
                     </div>
                 </div>
             </div>
