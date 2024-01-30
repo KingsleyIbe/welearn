@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BasicInfo from "./BasicInfo";
 import Subjects from "./Subjects";
+import MyProfileDesc from "./MyProfileDesc";
 
 const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(true);
@@ -68,8 +69,8 @@ const DashboardItems = () => {
                     </nav>
                 </div>
                 {basicInfo && <div><BasicInfo /></div>}
-                {subjects && <div className="bg-[#ddd]"><Subjects /></div>}
-                {profileDesc && <div className="bg-[#ddd]">Profile Description</div>}
+                {subjects && <div><Subjects /></div>}
+                {profileDesc && <div><MyProfileDesc /></div>}
                 {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
                 {priceCat && <div className="bg-[#ddd]">Price Category</div>}
             </div>
