@@ -58,11 +58,14 @@ const MyProfileDesc = () => {
 
                             <h2 className="my-5 font-semibold">AGE OF YOUR STUDENTS</h2>
                             <p className="mb-5">Indicate the age range of the students you want to teach:</p>
-                            <div className="flex flex-row gap-5 items-center">
+                            <div className="flex flex-row gap-5 items-center mb-10">
                                 <MinRange />
 
                                 <p>to</p>
                                 <MaxRange />
+                            </div>
+                            <div className="flex flex-col items-end justify-cente p-2">
+                                <button type="submit" className="rounded-[8px] px-[21px] py-[12px] bg-[#FF9900] text-[#000]">Save and continue</button>
                             </div>
 
                         </form>
