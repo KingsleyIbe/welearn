@@ -2,6 +2,7 @@ import { useState } from "react";
 import BasicInfo from "./BasicInfo";
 import Subjects from "./Subjects";
 import MyProfileDesc from "./MyProfileDesc";
+import EduExperience from "./EduExperience";
 
 const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(true);
@@ -71,7 +72,7 @@ const DashboardItems = () => {
                 {basicInfo && <div><BasicInfo /></div>}
                 {subjects && <div><Subjects /></div>}
                 {profileDesc && <div><MyProfileDesc /></div>}
-                {eduExp && <div className="bg-[#ddd]">Education and Experience</div>}
+                {eduExp && <div><EduExperience /></div>}
                 {priceCat && <div className="bg-[#ddd]">Price Category</div>}
             </div>
         </div>
