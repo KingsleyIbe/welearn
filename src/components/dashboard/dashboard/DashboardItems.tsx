@@ -3,6 +3,7 @@ import BasicInfo from "./BasicInfo";
 import Subjects from "./Subjects";
 import MyProfileDesc from "./MyProfileDesc";
 import EduExperience from "./EduExperience";
+import PriceCategory from "./PriceCategory";
 
 const DashboardItems = () => {
     const [basicInfo, setBasicInfo] = useState(true);
@@ -73,7 +74,7 @@ const DashboardItems = () => {
                 {subjects && <div><Subjects /></div>}
                 {profileDesc && <div><MyProfileDesc /></div>}
                 {eduExp && <div><EduExperience /></div>}
-                {priceCat && <div className="bg-[#ddd]">Price Category</div>}
+                {priceCat && <div><PriceCategory /></div>}
             </div>
         </div>
     );
