@@ -60,7 +60,6 @@ const MyProfileDesc = () => {
                             <p className="mb-5">Indicate the age range of the students you want to teach:</p>
                             <div className="flex flex-row gap-5 items-center mb-10">
                                 <MinRange />
-
                                 <p>to</p>
                                 <MaxRange />
                             </div>
