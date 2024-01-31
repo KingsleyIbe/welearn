@@ -11,9 +11,9 @@ const MaxRange = () => {
                 id: uuidv4(),
                 value: i
             });
-        }
+        };
         setNumbers(tempNumbers);
-    }, [])
+    }, []);
 
     return (
         <select className="register-input-bolder p-2">
