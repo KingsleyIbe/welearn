@@ -20,8 +20,6 @@ const Card = () => {
                     <div className="mx-2">
                         <div className="flex justify-between items-center">
                             <div className="flex gap-2 items-center">
-                                {/* <FontAwesomeIcon icon={item?.ratingIcon} /> */}
-                                {/* <i className="bi bi-star"></i> */}
                                 <Icon.StarFill className="text-[#FD9800]"/>
                                 <p>{item?.rating} </p>
                                 <p>({item?.numberOfReviews} {item?.numberOfReviews > 0 ? 'reviews' : 'review'}) </p>
