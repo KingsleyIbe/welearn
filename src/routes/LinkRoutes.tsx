@@ -29,7 +29,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard/my-subscriptions" element={<Suspense fallback={<Spinner/>}><MySubscriptionsPage /></Suspense>} />
         <Route path="/dashboard/settings" element={<Suspense fallback={<Spinner/>}><SettingsPage /></Suspense>} />
         <Route path="/dashboard/scheduled-lessons" element={<Suspense fallback={<Spinner/>}><ScheduledLessonsPage /></Suspense>} />
-        <Route path="/dashboard/my-students" element={<Suspense fallback={<>Loading...</>}><MyStudentsPage /></Suspense>} />
+        <Route path="/dashboard/my-students" element={<Suspense fallback={<Spinner/>}><MyStudentsPage /></Suspense>} />
         <Route path="/dashboard/profile" element={<Suspense fallback={<>Loading...</>}><ProfilePage /></Suspense>} />
       </Routes>
   );
