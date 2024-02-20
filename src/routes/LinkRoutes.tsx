@@ -19,10 +19,10 @@ const LinkRoutes = () => {
   return (
       <Routes>
         <Route path="/" element={<Suspense fallback={<Spinner/>}><Home /></Suspense>} />
-        <Route path="/login" element={<Suspense fallback={<>Loading...</>}><LoginPage /></Suspense>} />
-        <Route path="/register" element={<Suspense fallback={<>Loading...</>}><RegisterPage /></Suspense>} />
-        <Route path="/dashboard" element={<Suspense fallback={<>Loading...</>}><DashBoardPage /></Suspense>} />
-        <Route path="/dashboard/reviews" element={<Suspense fallback={<>Loading...</>}><ReviewsPage /></Suspense>} />
+        <Route path="/login" element={<Suspense fallback={<Spinner/>}><LoginPage /></Suspense>} />
+        <Route path="/register" element={<Suspense fallback={<Spinner/>}><RegisterPage /></Suspense>} />
+        <Route path="/dashboard" element={<Suspense fallback={<Spinner/>}><DashBoardPage /></Suspense>} />
+        <Route path="/dashboard/reviews" element={<Suspense fallback={<Spinner/>}><ReviewsPage /></Suspense>} />
         <Route path="/dashboard/my-ads" element={<Suspense fallback={<>Loading...</>}><MyAdsPage /></Suspense>} />
         <Route path="/dashboard/my-account" element={<Suspense fallback={<>Loading...</>}><MyAccountPage /></Suspense>} />
         <Route path="/dashboard/my-messages" element={<Suspense fallback={<>Loading...</>}><MyMessagesPage /></Suspense>} />
