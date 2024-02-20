@@ -1,34 +1,36 @@
+import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
-  import Home from '../pages/HomePage';
-import LoginPage from '../pages/LoginPage';
-import RegisterPage from '../pages/RegisterPage';
-import DashBoardPage from '../pages/DashBordPage';
-import ReviewsPage from '../pages/ReviewsPages';
-import MyAdsPage from '../pages/MyAdsPage';
-import MyAccountPage from '../pages/MyAccountPage';
-import MySubscriptionsPage from '../pages/MySubscriptionsPage';
-import MyMessagesPage from '../pages/MyMessagesPage';
-import SettingsPage from '../pages/SettingsPage';
-import ScheduledLessonsPage from '../pages/ScheduledLessonsPage';
-import MyStudentsPage from '../pages/MyStudentsPage';
-import ProfilePage from '../pages/ProfilePage';
+import Spinner from '../components/common/Spinner';
+const Home = lazy(() => import('../pages/HomePage'));
+const LoginPage = lazy(() => import('../pages/LoginPage'));
+const RegisterPage = lazy(() => import('../pages/RegisterPage'));
+const DashBoardPage = lazy(() => import('../pages/DashBordPage'));
+const ReviewsPage = lazy(() => import('../pages/ReviewsPages'));
+const MyAdsPage = lazy(() => import('../pages/MyAdsPage'));
+const MyAccountPage = lazy(() => import('../pages/MyAccountPage'));
+const MySubscriptionsPage = lazy(() => import('../pages/MySubscriptionsPage'));
+const  MyMessagesPage = lazy(() => import('../pages/MyMessagesPage'));
+const  SettingsPage = lazy(() => import('../pages/SettingsPage'));
+const  ScheduledLessonsPage = lazy(() => import('../pages/ScheduledLessonsPage'));
+const  MyStudentsPage = lazy(() => import('../pages/MyStudentsPage'));
+const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
 
 const LinkRoutes = () => {
   return (
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/dashboard" element={<DashBoardPage />} />
-        <Route path="/dashboard/reviews" element={<ReviewsPage />} />
-        <Route path="/dashboard/my-ads" element={<MyAdsPage />} />
-        <Route path="/dashboard/my-account" element={<MyAccountPage />} />
-        <Route path="/dashboard/my-messages" element={<MyMessagesPage />} />
-        <Route path="/dashboard/my-subscriptions" element={<MySubscriptionsPage />} />
-        <Route path="/dashboard/settings" element={<SettingsPage />} />
-        <Route path="/dashboard/scheduled-lessons" element={<ScheduledLessonsPage />} />
-        <Route path="/dashboard/my-students" element={<MyStudentsPage />} />
-        <Route path="/dashboard/profile" element={<ProfilePage />} />
+        <Route path="/" element={<Suspense fallback={<Spinner/>}><Home /></Suspense>} />
+        <Route path="/login" element={<Suspense fallback={<Spinner/>}><LoginPage /></Suspense>} />
+        <Route path="/register" element={<Suspense fallback={<Spinner/>}><RegisterPage /></Suspense>} />
+        <Route path="/dashboard" element={<Suspense fallback={<Spinner/>}><DashBoardPage /></Suspense>} />
+        <Route path="/dashboard/reviews" element={<Suspense fallback={<Spinner/>}><ReviewsPage /></Suspense>} />
+        <Route path="/dashboard/my-ads" element={<Suspense fallback={<Spinner/>}><MyAdsPage /></Suspense>} />
+        <Route path="/dashboard/my-account" element={<Suspense fallback={<Spinner/>}><MyAccountPage /></Suspense>} />
+        <Route path="/dashboard/my-messages" element={<Suspense fallback={<Spinner/>}><MyMessagesPage /></Suspense>} />
+        <Route path="/dashboard/my-subscriptions" element={<Suspense fallback={<Spinner/>}><MySubscriptionsPage /></Suspense>} />
+        <Route path="/dashboard/settings" element={<Suspense fallback={<Spinner/>}><SettingsPage /></Suspense>} />
+        <Route path="/dashboard/scheduled-lessons" element={<Suspense fallback={<Spinner/>}><ScheduledLessonsPage /></Suspense>} />
+        <Route path="/dashboard/my-students" element={<Suspense fallback={<Spinner/>}><MyStudentsPage /></Suspense>} />
+        <Route path="/dashboard/profile" element={<Suspense fallback={<Spinner/>}><ProfilePage /></Suspense>} />
       </Routes>
   );
 };

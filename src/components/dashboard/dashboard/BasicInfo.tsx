@@ -43,7 +43,7 @@ const BasicInfo = () => {
                             )}
                         </ul>
                         <div className="flex flex-col items-end text-center text-[#FD9800] font-bold">
-                            <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read More' : 'Read Less'}</button>
+                            <button type="button" onClick={handleReadMore}>{isReadMore ? 'Read Less' : 'Read More'}</button>
                         </div>
                     </div>
                     <UserData />
