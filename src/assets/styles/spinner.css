@@ -2,9 +2,9 @@
     color: official;
     /* color: #FD9800; */
     display: inline-block;
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50vh;
     width: 80px;
     height: 80px;
   }

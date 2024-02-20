@@ -1,4 +1,3 @@
-import Spinner from '../common/Spinner';
 import Footer from '../common/Footer';
 import Heading from '../common/Heading';
 import Caption1 from './Caption1';
@@ -12,7 +11,6 @@ const index = () => {
     <div>
         <Heading />
         <Caption1 />
-      <Spinner />
         <Search />
         <SampleCourses />
         <Card />
