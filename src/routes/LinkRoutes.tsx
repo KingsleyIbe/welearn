@@ -13,10 +13,6 @@ const  SettingsPage = lazy(() => import('../pages/SettingsPage'));
 const  ScheduledLessonsPage = lazy(() => import('../pages/ScheduledLessonsPage'));
 const  MyStudentsPage = lazy(() => import('../pages/MyStudentsPage'));
 const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
-  // import Home from '../pages/HomePage';
-// import LoginPage from '../pages/LoginPage';
-// import RegisterPage from '../pages/RegisterPage';
-// import DashBoardPage from '../pages/DashBordPage';
 
 const LinkRoutes = () => {
   return (
