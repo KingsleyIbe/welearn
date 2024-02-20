@@ -21,11 +21,6 @@ const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
 // import MyAdsPage from '../pages/MyAdsPage';
 // import MyAccountPage from '../pages/MyAccountPage';
 // import MySubscriptionsPage from '../pages/MySubscriptionsPage';
-// import MyMessagesPage from '../pages/MyMessagesPage';
-// import SettingsPage from '../pages/SettingsPage';
-// import ScheduledLessonsPage from '../pages/ScheduledLessonsPage';
-// import MyStudentsPage from '../pages/MyStudentsPage';
-// import ProfilePage from '../pages/ProfilePage';
 
 const LinkRoutes = () => {
   return (
