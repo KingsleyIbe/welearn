@@ -12,6 +12,7 @@ const  MyMessagesPage = lazy(() => import('../pages/MyMessagesPage'));
 const  SettingsPage = lazy(() => import('../pages/SettingsPage'));
 const  ScheduledLessonsPage = lazy(() => import('../pages/ScheduledLessonsPage'));
 const  MyStudentsPage = lazy(() => import('../pages/MyStudentsPage'));
+const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
   // import Home from '../pages/HomePage';
 // import LoginPage from '../pages/LoginPage';
 // import RegisterPage from '../pages/RegisterPage';
@@ -24,7 +25,7 @@ const  MyStudentsPage = lazy(() => import('../pages/MyStudentsPage'));
 // import SettingsPage from '../pages/SettingsPage';
 // import ScheduledLessonsPage from '../pages/ScheduledLessonsPage';
 // import MyStudentsPage from '../pages/MyStudentsPage';
-import ProfilePage from '../pages/ProfilePage';
+// import ProfilePage from '../pages/ProfilePage';
 
 const LinkRoutes = () => {
   return (
@@ -41,7 +42,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard/settings" element={<Suspense fallback={<>Loading...</>}><SettingsPage /></Suspense>} />
         <Route path="/dashboard/scheduled-lessons" element={<Suspense fallback={<>Loading...</>}><ScheduledLessonsPage /></Suspense>} />
         <Route path="/dashboard/my-students" element={<Suspense fallback={<>Loading...</>}><MyStudentsPage /></Suspense>} />
-        <Route path="/dashboard/profile" element={<ProfilePage />} />
+        <Route path="/dashboard/profile" element={<Suspense fallback={<>Loading...</>}><ProfilePage /></Suspense>} />
       </Routes>
   );
 };
