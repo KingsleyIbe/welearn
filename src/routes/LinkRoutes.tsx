@@ -27,8 +27,8 @@ const LinkRoutes = () => {
         <Route path="/dashboard/my-account" element={<Suspense fallback={<Spinner/>}><MyAccountPage /></Suspense>} />
         <Route path="/dashboard/my-messages" element={<Suspense fallback={<Spinner/>}><MyMessagesPage /></Suspense>} />
         <Route path="/dashboard/my-subscriptions" element={<Suspense fallback={<Spinner/>}><MySubscriptionsPage /></Suspense>} />
-        <Route path="/dashboard/settings" element={<Suspense fallback={<>Loading...</>}><SettingsPage /></Suspense>} />
-        <Route path="/dashboard/scheduled-lessons" element={<Suspense fallback={<>Loading...</>}><ScheduledLessonsPage /></Suspense>} />
+        <Route path="/dashboard/settings" element={<Suspense fallback={<Spinner/>}><SettingsPage /></Suspense>} />
+        <Route path="/dashboard/scheduled-lessons" element={<Suspense fallback={<Spinner/>}><ScheduledLessonsPage /></Suspense>} />
         <Route path="/dashboard/my-students" element={<Suspense fallback={<>Loading...</>}><MyStudentsPage /></Suspense>} />
         <Route path="/dashboard/profile" element={<Suspense fallback={<>Loading...</>}><ProfilePage /></Suspense>} />
       </Routes>
