@@ -10,9 +10,9 @@ import TopCoursesAndSkills from './TopCoursesAndSkills';
 const index = () => {
   return (
     <div>
-      <Spinner />
         <Heading />
         <Caption1 />
+      <Spinner />
         <Search />
         <SampleCourses />
         <Card />
