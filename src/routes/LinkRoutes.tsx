@@ -3,10 +3,11 @@ import { Routes, Route } from 'react-router-dom';
 const Home = lazy(() => import('../pages/HomePage'));
 const LoginPage = lazy(() => import('../pages/LoginPage'));
 const RegisterPage = lazy(() => import('../pages/RegisterPage'));
+const DashBoardPage = lazy(() => import('../pages/DashBordPage'));
   // import Home from '../pages/HomePage';
 // import LoginPage from '../pages/LoginPage';
 // import RegisterPage from '../pages/RegisterPage';
-import DashBoardPage from '../pages/DashBordPage';
+// import DashBoardPage from '../pages/DashBordPage';
 import ReviewsPage from '../pages/ReviewsPages';
 import MyAdsPage from '../pages/MyAdsPage';
 import MyAccountPage from '../pages/MyAccountPage';
@@ -23,7 +24,7 @@ const LinkRoutes = () => {
         <Route path="/" element={<Suspense fallback={<>Loading...</>}><Home /></Suspense>} />
         <Route path="/login" element={<Suspense fallback={<>Loading...</>}><LoginPage /></Suspense>} />
         <Route path="/register" element={<Suspense fallback={<>Loading...</>}><RegisterPage /></Suspense>} />
-        <Route path="/dashboard" element={<DashBoardPage />} />
+        <Route path="/dashboard" element={<Suspense fallback={<>Loading...</>}><DashBoardPage /></Suspense>} />
         <Route path="/dashboard/reviews" element={<ReviewsPage />} />
         <Route path="/dashboard/my-ads" element={<MyAdsPage />} />
         <Route path="/dashboard/my-account" element={<MyAccountPage />} />
