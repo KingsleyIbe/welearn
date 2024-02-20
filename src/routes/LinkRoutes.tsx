@@ -6,13 +6,14 @@ const RegisterPage = lazy(() => import('../pages/RegisterPage'));
 const DashBoardPage = lazy(() => import('../pages/DashBordPage'));
 const ReviewsPage = lazy(() => import('../pages/ReviewsPages'));
 const MyAdsPage = lazy(() => import('../pages/MyAdsPage'));
+const MyAccountPage = lazy(() => import('../pages/MyAccountPage'));
   // import Home from '../pages/HomePage';
 // import LoginPage from '../pages/LoginPage';
 // import RegisterPage from '../pages/RegisterPage';
 // import DashBoardPage from '../pages/DashBordPage';
 // import ReviewsPage from '../pages/ReviewsPages';
 // import MyAdsPage from '../pages/MyAdsPage';
-import MyAccountPage from '../pages/MyAccountPage';
+// import MyAccountPage from '../pages/MyAccountPage';
 import MySubscriptionsPage from '../pages/MySubscriptionsPage';
 import MyMessagesPage from '../pages/MyMessagesPage';
 import SettingsPage from '../pages/SettingsPage';
@@ -29,7 +30,7 @@ const LinkRoutes = () => {
         <Route path="/dashboard" element={<Suspense fallback={<>Loading...</>}><DashBoardPage /></Suspense>} />
         <Route path="/dashboard/reviews" element={<Suspense fallback={<>Loading...</>}><ReviewsPage /></Suspense>} />
         <Route path="/dashboard/my-ads" element={<Suspense fallback={<>Loading...</>}><MyAdsPage /></Suspense>} />
-        <Route path="/dashboard/my-account" element={<MyAccountPage />} />
+        <Route path="/dashboard/my-account" element={<Suspense fallback={<>Loading...</>}><MyAccountPage /></Suspense>} />
         <Route path="/dashboard/my-messages" element={<MyMessagesPage />} />
         <Route path="/dashboard/my-subscriptions" element={<MySubscriptionsPage />} />
         <Route path="/dashboard/settings" element={<SettingsPage />} />
