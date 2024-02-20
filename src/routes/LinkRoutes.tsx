@@ -17,10 +17,6 @@ const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
 // import LoginPage from '../pages/LoginPage';
 // import RegisterPage from '../pages/RegisterPage';
 // import DashBoardPage from '../pages/DashBordPage';
-// import ReviewsPage from '../pages/ReviewsPages';
-// import MyAdsPage from '../pages/MyAdsPage';
-// import MyAccountPage from '../pages/MyAccountPage';
-// import MySubscriptionsPage from '../pages/MySubscriptionsPage';
 
 const LinkRoutes = () => {
   return (
