@@ -1,5 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Spinner from '../components/common/Spinner';
 const Home = lazy(() => import('../pages/HomePage'));
 const LoginPage = lazy(() => import('../pages/LoginPage'));
 const RegisterPage = lazy(() => import('../pages/RegisterPage'));
@@ -17,7 +18,7 @@ const  ProfilePage = lazy(() => import('../pages/ProfilePage'));
 const LinkRoutes = () => {
   return (
       <Routes>
-        <Route path="/" element={<Suspense fallback={<>Loading...</>}><Home /></Suspense>} />
+        <Route path="/" element={<Suspense fallback={<Spinner/>}><Home /></Suspense>} />
         <Route path="/login" element={<Suspense fallback={<>Loading...</>}><LoginPage /></Suspense>} />
         <Route path="/register" element={<Suspense fallback={<>Loading...</>}><RegisterPage /></Suspense>} />
         <Route path="/dashboard" element={<Suspense fallback={<>Loading...</>}><DashBoardPage /></Suspense>} />

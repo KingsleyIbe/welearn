@@ -1,3 +1,4 @@
+import Spinner from '../common/Spinner';
 import Footer from '../common/Footer';
 import Heading from '../common/Heading';
 import Caption1 from './Caption1';
@@ -9,6 +10,7 @@ import TopCoursesAndSkills from './TopCoursesAndSkills';
 const index = () => {
   return (
     <div>
+      <Spinner />
         <Heading />
         <Caption1 />
         <Search />
