@@ -1,8 +1,9 @@
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
-const Home = lazy(() => import("../pages/HomePage"));
+const Home = lazy(() => import('../pages/HomePage'));
+const LoginPage = lazy(() => import('../pages/LoginPage'));
   // import Home from '../pages/HomePage';
-import LoginPage from '../pages/LoginPage';
+// import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
 import DashBoardPage from '../pages/DashBordPage';
 import ReviewsPage from '../pages/ReviewsPages';
@@ -18,8 +19,8 @@ import ProfilePage from '../pages/ProfilePage';
 const LinkRoutes = () => {
   return (
       <Routes>
-        <Route path="/" element={<Suspense fallback={<>Loading</>}><Home /></Suspense>} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<Suspense fallback={<>Loading...</>}><Home /></Suspense>} />
+        <Route path="/login" element={<Suspense fallback={<>Loading...</>}><LoginPage /></Suspense>} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/dashboard" element={<DashBoardPage />} />
         <Route path="/dashboard/reviews" element={<ReviewsPage />} />
