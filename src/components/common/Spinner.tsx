@@ -2,7 +2,23 @@ import '../../assets/styles/spinner.css';
 
 const Spinner = () => {
     return (
-        <div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div className="">
+            <div className="lds-spinner flex flex-row">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>Welearn</div>
+            </div>
+        </div>
     )
 }
 
