@@ -23,9 +23,9 @@ const Spinner = () => {
 
 const SpinnerText = () => {
     return (
-        <div className="flex flex-row gap-4 justify-cente text-cente absolute left-[50%] top-[50vh]">
+        <div className="flex flex-row gap-3 justify-cente text-cente absolute left-[50%] top-[50vh]">
             <Spinner />
-            <div className="lds-spinner mt-4 text-[20px] font-bold">Welearn</div>
+            <div className="mt-4 text-[20px] font-bold">Welearn</div>
         </div>
     )
 }
