@@ -23,7 +23,6 @@ Coming soon...
 
 
 ## Other Important Information
-## Built With
 
 - Basic Language - Typescript 
 - Framework - React
