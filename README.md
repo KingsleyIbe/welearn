@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# Welearn Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> "Welearn Application" is an eductional platform that matches students to their perfect tutors. No matter what your learning needs are, welearn will find you the right tutor. The application allows users to do perform the following functions:
+- Search and find tutors.
+- Schedule classes.
+- Host and join classes online.
+- Students can filter search based on location, skills and mode of class delivery (offline or online).
+- Send email and sms reminders to both students and tutors.
 
-## Available Scripts
+The application was built using 
+- Javascript,
+- Typescript
+- React, 
+- TailwindCSS.
 
-In the project directory, you can run:
+## Project Screenshot
+<!-- ![screenshot](src/images/screenShot.jpeg) -->
+Coming soon...
 
-### `npm start`
+## Live Video Demo
+<!-- ![Video Demo](https://user-images.githubusercontent.com/43799727/149385939-29497e84-0056-4711-ab33-883373ed05c5.gif) -->
+Coming soon...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Other Important Information
+## Built With
 
-### `npm test`
+- Basic Language - Typescript 
+- Framework - React
+- Other technologies/tools: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` create-react-app
+    > create-react-app
+    > webpack for bundling files
+    > Babel for code transpiling
+    > Git for version control
+    > Eslint for JavaScript linting
+    > Stylelint for style linting
+    > Jest for testing
+ ```
 
-### `npm run build`
+## Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- - [Live Demo Link](https://kingsleyibe.github.io/react-todos-app/) -->
+Coming soon...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple example steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
+- You should have basic knowledge of HTML.
+- You should have basic knowledge of JavaScript.
+- You should have basic knowledge of TypeScript.
+- You should have basic knowledge of CSS.
+- You should have basic knowledge of webpack.
+- Also, a basic knowledge of git and github.
+- A code editor: I used VScode for this project but you can use any code editor of your choice.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
+- follow steps on this link to set up VScode code editor: [setup vscode](https://www.freecodecamp.org/news/how-to-set-up-vs-code-for-web-development/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Install
+- [download](https://code.visualstudio.com/download) VScode.
+[Watch this video](https://www.youtube.com/watch?v=MlIzFUI1QGA) on how to install VScode on windows.
+- [Git]()
+- [Node]()
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Usage
 
-## Learn More
+Clone project, run in your terminal:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```$ git clone https://github.com/KingsleyIbe/welearn.git ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open the cloned project in your code editor and run:
+
+``` $ cd welearn ```
+
+ Install npm packages, run:
+
+``` $ npm i or npm install ```
+
+Then run the server:
+
+``` $ npm start ```
+
+
+
+## Author
+
+### 👨🏾‍⚕️ Kingsley Ibe
+
+- [Github](https://github.com/kingsleyibe)
+- [Twiter](https://twitter.com/kingsleyibec)
+- [LinkedIn](https://www.linkedin.com/in/kingsley-ibe/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgment 
+- Webdeves
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
